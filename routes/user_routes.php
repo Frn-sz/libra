@@ -8,7 +8,10 @@ Route::group(['prefix' => 'user'], function () {
     //Rotas Get
     Route::get("/login", [UserController::class, "login"]);
     Route::get("/register", [UserController::class, "register"]);
-    
+
     //Rotas Post
-    Route::post("/login", [UserController::class, "authenticate,"]);
+    Route::post("/login", [UserController::class, "authenticate"]);
+    Route::post("/register", [UserController::class, "store"]);
+    Route::post("/logout", [UserController::class, "logout"]);
+
 });

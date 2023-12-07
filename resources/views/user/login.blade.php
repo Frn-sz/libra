@@ -19,7 +19,7 @@
             <div class="mt-10 flex justify-between my-auto">
                 <button
                     class="bg-amber-700 hover:bg-amber-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline my-auto"
-                    type="button">Entrar
+                    type="submit">Entrar
                 </button>
 
 

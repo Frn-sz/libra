@@ -17,6 +17,13 @@
         <li class="hover:text-amber-700"><a href="#">Home</a></li>
         <li class="hover:text-amber-700"><a href="#">Docs</a></li>
         <li class="hover:text-amber-700"><a href="#">Sobre</a></li>
+        <li class="hover:text-amber-700">
+            <form action="/user/logout" method="post">
+                @csrf
+                <button type="submit">Sair</button>
+            </form>
+        </li>
+
     </ul>
 </header>
 <main class="mb-auto">
