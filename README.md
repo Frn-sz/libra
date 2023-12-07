@@ -4,4 +4,4 @@ Tecnologias Utilizadas
 
 - Laravel
 - Tailwind
-
+- MySQL
